@@ -1,2 +1,2 @@
 # EDM
-demonstration empirical dynamic modeling code
+Empirical dynamic modeling code for a demonstration dataset
