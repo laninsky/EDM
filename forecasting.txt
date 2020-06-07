@@ -1,0 +1,6 @@
+Time_since_Eemian	Ne	Area
+125 NA  -0.54
+124 NA  -0.24
+123 NA  0.06
+122 NA  0.36
+121 NA  0.66
