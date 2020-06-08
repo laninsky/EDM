@@ -171,7 +171,11 @@ plot(t, smap_coeffs[, 1], type = "l", col = "red", ylab = "effect of Ne", xlab =
 plot(t, smap_coeffs[, 2], type = "l", col = "blue", ylab = paste("effect of",lag_cols), xlab = "")
 plot(t, smap_coeffs[, 3], type = "l", col = "blue", ylab = "effect of area", xlab = "")
 
-# Obtaining S-map coefficients
+# Obtaining S-map coefficients: for our actual analyses use regularized s-maps
+# e.g. Cenci, S., Sugihara, G. and Saavedra, S., 2019. Regularized S‐map for inference 
+# and forecasting with noisy ecological time series. Methods in Ecology and Evolution, 
+# 10(5), pp.650-660.
+# This will slightly increase rho and decrease RMSE instead of standard s-maps.
 # Given we are satisfied that the data gives us good predictions, 
 # going to generate s-map coefficients for full dataset that can be used in
 # future forecasting
