@@ -175,6 +175,7 @@ plot(t, smap_coeffs[, 3], type = "l", col = "blue", ylab = "effect of area", xla
 # e.g. Cenci, S., Sugihara, G. and Saavedra, S., 2019. Regularized S‐map for inference 
 # and forecasting with noisy ecological time series. Methods in Ecology and Evolution, 
 # 10(5), pp.650-660.
+# https://zenodo.org/record/2535688#.Xt9dvWozbwc
 # This will slightly increase rho and decrease RMSE instead of standard s-maps.
 # Given we are satisfied that the data gives us good predictions, 
 # going to generate s-map coefficients for full dataset that can be used in
